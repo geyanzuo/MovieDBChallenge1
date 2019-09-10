@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TheMovieDB';
+  title = 'Movie Name';
+  Rating = '[Rating]';
+  ShortDescription= '[description]';
+  RunTime = '[time]';
+  ReleaseDate ='[Date]';
+  MovieThumbnail ='[url]';
 }
